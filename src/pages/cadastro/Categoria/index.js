@@ -30,7 +30,9 @@ function CadastroCategoria() {
   // }
 
   useEffect(() => {
-    const url = "http://localhost:8080/categorias";
+    const url = window.location.hostname.includes("localhost")
+      ? "http://localhost:8080/categorias"
+      : "https://aluraflix-terry.herokuapp.com/categorias";
     fetch(url).then(async (respostaDoServidor) => {
       const resposta = await respostaDoServidor.json();
       setCategorias([...resposta]);
