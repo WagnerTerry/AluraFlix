@@ -1,3 +1,6 @@
+// start vai tratar do back end - heroku
+// build vai tratar do front end - vercel
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
