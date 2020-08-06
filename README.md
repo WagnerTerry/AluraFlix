@@ -1,3 +1,4 @@
+Para rodar o projeto: npm run dev
 // start vai tratar do back end - heroku
 // build vai tratar do front end - vercel
 

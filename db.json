@@ -7,10 +7,18 @@
       "cor": "#cbd1ff"
     },
     {
-      "id": 2,
+      "id": 3,
       "nome": "Back End",
       "descricao": "Outra categoria",
       "cor": "#cbd1ff"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
     }
   ]
 }
